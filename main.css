@@ -22,3 +22,7 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
