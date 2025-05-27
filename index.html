@@ -148,15 +148,128 @@
                     <aside class="col-md-2">
                         <nav class="nav nav-pills flex-column nav-cardapio">
                             <!-- por padrao, os nav-pills deixam os itens um ao lado do outro. com flex-column isso muda.  -->
-                            <button type="button" class="text-start nav-link text-colored active">Bebidas não alcoólicas</button>
-                            <button type="button" class="text-start nav-link text-colored">Bebidas alcoólicas</button>
-                            <button type="button" class="text-start nav-link text-colored">Entradas</button>
-                            <button type="button" class="text-start nav-link text-colored">Pratos Principais</button>
-                            <button type="button" class="text-start nav-link text-colored">Sobremesas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="text-start nav-link text-colored">Bebidas alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="text-start nav-link text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="text-start nav-link text-colored">Pratos Principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="text-start nav-link text-colored">Sobremesas</button>
                         </nav>
                     </aside>
                     <div class="col-md-10">
-                        Conteudo do cardapio
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/bebidas/coca-cola.jpg" alt="coquinha-gelada">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-cola</h5>
+                                        <p>500ml. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/bebidas/suco.jpg" alt="suco">
+                                        <h5 class="text-colored fw-bold mt-2">Suco</h5>
+                                        <p>300ml. Laranja, uva, limonada, abacaxi, maçã ou acerola.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/bebidas/suco.jpg" alt="outras">
+                                        <h5 class="text-colored fw-bold mt-2">Bebida X</h5>
+                                        <p>1L. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/bebidas/suco.jpg" alt="outras">
+                                        <h5 class="text-colored fw-bold mt-2">Bebida X</h5>
+                                        <p>1L. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/bebidas/suco.jpg" alt="outras">
+                                        <h5 class="text-colored fw-bold mt-2">Bebida X</h5>
+                                        <p>1L. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/bebidas/suco.jpg" alt="outras">
+                                        <h5 class="text-colored fw-bold mt-2">Bebida X</h5>
+                                        <p>1L. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/bebidas/cerveja.jpg" alt="cervejinha-gelada">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                        <p>500ml. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/bebidas/vinho.jpg" alt="vinhozinho">
+                                        <h5 class="text-colored fw-bold mt-2">Vinho</h5>
+                                        <p>1 garafa da sua preferência. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/bebidas/vinho.jpg" alt="outras">
+                                        <h5 class="text-colored fw-bold mt-2">Bebida X</h5>
+                                        <p>1L. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/entradas/entrada.jpg" alt="entradinha">
+                                        <h5 class="text-colored fw-bold mt-2">Entradinha</h5>
+                                        <p>1 pessoa. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/entradas/entrada.jpg" alt="entradinha">
+                                        <h5 class="text-colored fw-bold mt-2">Entradinha</h5>
+                                        <p>2 pessoas. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/entradas/entrada.jpg" alt="entradinha">
+                                        <h5 class="text-colored fw-bold mt-2">Entradinha</h5>
+                                        <p>3 pessoas. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/pratos/pizza.jpg" alt="pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Pizza</h5>
+                                        <p>4 pessoas. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/pratos/salmao.jpg" alt="salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Salmão com molho</h5>
+                                        <p>2 pessoas. Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/pratos/salmao.jpg" alt="prato x">
+                                        <h5 class="text-colored fw-bold mt-2">Prato X</h5>
+                                        <p>3 pessoas. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>1 fatia. Morango, baunilha, limão, chocolate. Lorem ipsum, dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/sobremesas/cupcake.jpg" alt="cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>Morango, chocolate, blueberry, abacaxi. Lorem ipsum, dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="images/cardapio/sobremesas/cupcake.jpg" alt="Doce x">
+                                        <h5 class="text-colored fw-bold mt-2">Doce X</h5>
+                                        <p>2 pessoas. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <!-- crie a seção cardapio, min 18:22 -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
