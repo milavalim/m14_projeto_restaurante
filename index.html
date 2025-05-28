@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <header class="navbar navbar-expand-lg stick-top pt-4 p-4" id="cabecalho">
+    <header class="navbar navbar-expand-lg fixed-top pt-4 p-4" id="cabecalho">
         <div class="container">
             <h1 class="navbar-brand m-0 section-title">EBAC Bistrô</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
@@ -49,7 +49,7 @@
         </div>
     </header>
 
-    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
         <section id="sobre-o-restaurante">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel"> <!--esse data é para ativar o scroll do carousel-->
                 <div class="carousel-inner">
@@ -81,7 +81,7 @@
                         <div class="col-md-5">
                             <img src="images/restaurante.jpg" class="d-block w-100 rounded" alt="Restaurante, espaço interno">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 mt-3 mt-md-0">
                             <h2 class="section-title">Sobre <span class="text-colored">o Restaurante</span></h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo autem ut a dolore facilis quidem sed libero, ducimus cumque totam quasi veniam veritatis reiciendis magnam et aliquam! Excepturi, tenetur.
@@ -277,7 +277,7 @@
             <div class="container">
                 <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 mb-5">
                         <form>
                             <div class="mb-3">
                                 <label for="nome" class="form-label fw-bold text-colored">Nome</label>
