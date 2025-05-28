@@ -28,7 +28,8 @@ body{
     font-style: normal;
 }
 
-#sobre-o-restaurante{
+#sobre-o-restaurante,
+#cardapio{
     background-color: #ffeae6;
 }
 
